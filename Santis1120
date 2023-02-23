@@ -1,0 +1,7 @@
+local lava = script.Parent
+
+local function kill()
+
+end
+
+lava.Touched:Connect(kill)
